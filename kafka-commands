@@ -1,0 +1,7 @@
+1)zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+2)kafka-server-start.bat ..\..\config\server.properties
+
+3)kafka-console-consumer.bat --topic topic-name --bootstrap-server localhost:9092
+
+4)kafka-console-producer.bat --topic topic-name --bootstrap-server localhost:9092
